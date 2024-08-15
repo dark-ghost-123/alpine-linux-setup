@@ -13,6 +13,7 @@ mkdir -p /home/dark/.config/i3
 
 # user setup dark
 cp ./dark/wallpaper/compass.jpg /home/dark/wallpaper/compass.jpg
+cp ./dark/wallpaper/Techno-Geek.png /home/dark/wallpaper/Techno-Geek.png
 cp ./dark/.config/i3/config /home/dark/.config/i3/config
 cp ./dark/.profile /home/dark/.profile
 mkdir -p /home/dark/.scripts
