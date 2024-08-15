@@ -2,19 +2,17 @@
 
 apk add curl socat nmap net-tools build-base setxkbmap sudo xrandr bash zsh dbus dbus-x11 sudo setup-xorg-base xfce4 xfce4-terminal lightdm dbus-x11
 apk add open-vm-tools open-vm-tools-guestinfo open-vm-tools-deploypkg open-vm-tools-gtk
-apk add lightdm-gtk-greeter i3wm i3status libxcb-dev i3lock xf86-video-vmware dmenu
+apk add lightdm-gtk-greeter libxcb-dev xf86-video-vmware dmenu
 apk add mesa-gl glib feh firefox-esr accountsservice openvpn
 apk add docker docker-compose
 
 # add user
 adduser dark
 mkdir -p /home/dark/wallpaper
-mkdir -p /home/dark/.config/i3
 
 # user setup dark
 cp ./dark/wallpaper/compass.jpg /home/dark/wallpaper/compass.jpg
 cp ./dark/wallpaper/Techno-Geek.png /home/dark/wallpaper/Techno-Geek.png
-cp ./dark/.config/i3/config /home/dark/.config/i3/config
 cp ./dark/.profile /home/dark/.profile
 mkdir -p /home/dark/.scripts
 cp ./dark/login-script.sh /home/dark/.scripts/login-script.sh
